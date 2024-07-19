@@ -124,15 +124,3 @@ couponId
 (relate
 (needs session :prop "id")))
 
-
-
----------------------------------------------------------------------------------
-(entity 
-(field  
-(contains-list-of ERP :inside-prop "coAuthors" :as "name")))
-
-enitiy ERP(
-    fields (
-        name
-    )
-)
